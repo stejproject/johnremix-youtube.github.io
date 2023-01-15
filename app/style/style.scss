@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    overflow: hidden;
+    padding: 15px;
+    .logo{
+        float: left;
+        h1{
+            font-family: 'MuseoModerno', cursive;
+            margin: 0;
+            a{
+                text-decoration: none;
+                color: rgb(29, 29, 29);
+            }
+        }
+    }
+    .subscribe{
+        float: right;
+        a{
+            background: red;
+            color: #fff;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0.5s;
+            margin-top: 10px;
+
+            &:hover{
+                background: rgb(200, 0, 0);
+            }
+        }
+    }
+}
+
+.hero{
+    margin: 5% 0;
+    overflow: hidden;
+    &-left{
+        float:left;
+        width: 60%;
+        iframe{
+            border-radius: 30px;
+        }
+    }
+    &-right{
+        float: right;
+        width: 38%;
+        h1{
+            font-size: 3em;
+            font-weight: 300;
+            margin-top: 0;
+        }
+        p{
+            font-size: 16px;
+            line-height: 30px;
+        }
+        a{
+            background: red;
+            color: #fff;
+            padding: 15px 30px;
+            display: inline-block;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0.5s;
+            margin-top: 10px;
+            &:hover{
+                background: rgb(200, 0, 0);
+            }
+        }
+    }
+}
+
+.features{
+    h3{
+        border-left: 20px solid red;
+        padding-left: 20px;
+        &.php{
+            border-color: yellow;
+        }
+    }
+    &-box{
+        display: flex;
+        &-item{
+            flex-grow: 1;
+            iframe{
+                width: 30%;
+                border-radius: 20px;
+                height: 300px;
+            }
+        }
+    }
+}
+
+.footer{
+    margin-top: 5%;
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

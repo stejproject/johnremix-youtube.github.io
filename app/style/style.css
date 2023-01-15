@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+    padding: 15px;
+}
+.header .logo {
+    float: left;
+}
+.header .logo h1 {
+    font-family: "MuseoModerno", cursive;
+    margin: 0;
+}
+.header .logo h1 a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+.header .subscribe {
+    float: right;
+}
+.header .subscribe a {
+    background: red;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+.header .subscribe a:hover {
+    background: #c80000;
+}
+
+.hero {
+    margin: 5% 0;
+    overflow: hidden;
+}
+.hero-left {
+    float: left;
+    width: 60%;
+}
+.hero-left iframe {
+    border-radius: 30px;
+}
+.hero-right {
+    float: right;
+    width: 38%;
+}
+.hero-right h1 {
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 0;
+}
+.hero-right p {
+    font-size: 16px;
+    line-height: 30px;
+}
+.hero-right a {
+    background: red;
+    color: #fff;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+.hero-right a:hover {
+    background: #c80000;
+}
+
+.features h3 {
+    border-left: 20px solid red;
+    padding-left: 20px;
+}
+.features h3.php {
+    border-color: yellow;
+}
+.features-box {
+    display: flex;
+}
+.features-box-item {
+    flex-grow: 1;
+}
+.features-box-item iframe {
+    width: 30%;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.footer {
+    margin-top: 5%;
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
